@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    padding: 0 100px;
+}
+.calc{
+    width: 200px;
+}
+.grid {
+    display: grid;
+}
+button{
+    text-align: center;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+button:hover{
+    font-size: 25px;
+    background-color: rgb(25, 0, 218);
+    color: #fff;
+}
+#btnBer{
+    width: 50px;
+    height: 200px;
+    grid-column: 4;
+    grid-row: 2 / span 6;
+}
+#input{
+    width: 200px;
+    height: 50px;
+    padding: 7px 10px;
+    font-size: 30px;
+    text-align: right;
+}
